@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-import graphic from '@public/cc.png';
 
 const About: React.FC = () => {
   return (
@@ -18,7 +17,9 @@ const About: React.FC = () => {
 
       <div className="flex justify-center">
         <Image
-          src={graphic}
+          src='/cc.png'
+          width={300}
+          height={300}
           alt="about-pic"
           className="w-96 h-96 object-cover"
         />
