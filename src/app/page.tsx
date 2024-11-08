@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import profilePic from './public/profile.jpg';
+import profilePic from '@public/profile.jpg';
 import DownloadResume from './Components/resume';
 
 const App: React.FC = () => {
