@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import DownloadResume from './Components/resume';
+import Profilepic from '/public/profile.jpg';
 
 const App: React.FC = () => {
   return (
@@ -14,7 +15,7 @@ const App: React.FC = () => {
           </h3>
           <div className="mb-4 flex justify-center">
             <Image
-              src='/profile.jpg'
+              src={Profilepic}
               alt="profile-pic"
               className="rounded-full mx-auto sm:mx-0"
               width={300}
