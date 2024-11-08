@@ -2,7 +2,6 @@
 import React from 'react';
 import { FaTwitter, FaLinkedin, FaGithub } from 'react-icons/fa';
 import Image from 'next/image';
-import graphic from '@public/gg.png';
 
 const Contact: React.FC = () => {
   return (
@@ -48,12 +47,7 @@ const Contact: React.FC = () => {
         </li>
       </ul>
 
-      <div className="flex justify-center">
-        <Image
-          src={graphic}
-          alt="contact-pic"
-          className="w-96 h-96 object-cover mb-5"
-        />
+      <div className="flex justify-center"><Image src='/gg.png' width={300} height={300} alt="contact-pic" className="w-96 h-96 object-cover mb-5"/>
       </div>
     </section>
   );
