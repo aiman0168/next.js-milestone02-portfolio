@@ -2,7 +2,7 @@
 import React from 'react';
 import { FaTwitter, FaLinkedin, FaGithub } from 'react-icons/fa';
 import Image from 'next/image';
-import graphic from '../public/gg.png';
+import graphic from '@public/gg.png';
 
 const Contact: React.FC = () => {
   return (
