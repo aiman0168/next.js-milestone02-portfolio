@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import graphic from '../public/cc.png';
+import graphic from '@public/cc.png';
 
 const About: React.FC = () => {
   return (
