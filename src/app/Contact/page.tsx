@@ -9,7 +9,7 @@ const Contact: React.FC = () => {
     <section className="bg-gray-100 py-12 px-4 sm:px-6 lg:px-8">
       <h2 className="text-3xl font-semibold text-center text-gray-800 mb-6">Contact Me</h2>
       <p className="text-lg text-center text-gray-600 mb-8">
-        If you'd like to connect, feel free to reach out through my social media profiles:
+        If you like to connect, feel free to reach out through my social media profiles:
       </p>
 
       <ul className="flex justify-center space-x-8 mb-8">
