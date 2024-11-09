@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-import Resume from './Components/resume';
 import Profilepic from './assets/profile.jpg';
 
 const App: React.FC = () => {
@@ -22,7 +21,14 @@ const App: React.FC = () => {
               height={300}
             />
           </div>
-          <Resume/>
+          <button>
+          <Link
+            href="https://cv-beta-black.vercel.app/"
+            target="_blank"
+            className="inline-block bg-yellow-500 text-white px-6 py-2 rounded-lg hover:bg-yellow-400 transition-colors"
+          >Resume
+          </Link>
+            </button>
         </div>
       </div>
     </div>
