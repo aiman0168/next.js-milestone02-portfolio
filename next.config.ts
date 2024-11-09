@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
     return [
       {
         source: "/cv.pdf",
-        destination: "/public/cv.pdf",  // Just an example of a rewrite rule
+        destination: "/Public/cv.pdf",
       },
     ];
   },
