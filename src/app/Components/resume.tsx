@@ -13,4 +13,4 @@ const Resume: React.FC = () => {
   );
 };
 
-export default DownloadResume;
+export default Resume;
