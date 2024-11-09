@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import DownloadResume from './Components/resume';
+import Resume from './Components/resume';
 import Profilepic from './assets/profile.jpg';
 
 const App: React.FC = () => {
@@ -22,7 +22,7 @@ const App: React.FC = () => {
               height={300}
             />
           </div>
-          <DownloadResume/>
+          <Resume/>
         </div>
       </div>
     </div>
